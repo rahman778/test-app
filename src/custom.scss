@@ -1,0 +1,12 @@
+@font-face {
+   font-family: "ProximaNova";
+   src: url("./fonts/ProximaNova-Regular.otf") format("truetype");
+   font-weight: normal;
+   font-style: normal;
+}
+
+@import "variables";
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "react-loading-skeleton/dist/skeleton.css";
+@import "pages";
+@import "component";

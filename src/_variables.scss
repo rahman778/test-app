@@ -1,0 +1,26 @@
+$white: #ffffff;
+$black: #000;
+
+$light-grey: #f1f4f8;
+
+$light-blue: #2995da;
+$dark-blue: #042235;
+
+$light-green: #40d2bf;
+
+$body-bg: $light-grey;
+$body-color: $black;
+
+$primary: $light-blue !default;
+$secondary: $light-green !default;
+
+$font-size-base: 1rem !default;
+$font-family-base: "ProximaNova", "Helvetica", "Arial", "serif";
+
+//Button
+$btn-border-radius: 4px;
+
+//Input
+$input-placeholder-color: #999;
+
+$enable-responsive-font-sizes: true;

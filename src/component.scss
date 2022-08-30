@@ -1,0 +1,153 @@
+.side-nav {
+   //padding: 50px 0 50px 50px;
+   background: $dark-blue;
+   width: 80px;
+   height: 100vh;
+   overflow-y: auto;
+   overflow-x: hidden;
+   position: sticky;
+   top: 0;
+   overflow-y: auto;
+
+   box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.5), inset -4px 0px 4px rgba(2, 15, 24, 0.569466);
+
+   .nav-item {
+      padding: 1.4rem 1rem;
+      transition: 0.3s ease-in-out;
+
+      &.active {
+         background-color: $primary;
+
+         img {
+            opacity: 1;
+         }
+      }
+
+      img {
+         opacity: 0.3;
+      }
+      .nav-link {
+         padding: 0;
+      }
+   }
+}
+
+.navbar {
+   .app-name {
+      color: #1a1919;
+   }
+
+   .nav-title {
+      font-size: 18px;
+      line-height: 22px;
+      padding-top: 1.35rem;
+      padding-bottom: 1.35rem;
+   }
+
+   .notification-badge {
+      position: absolute;
+      left: 60%;
+      top: -25%;
+      background-color: $primary;
+      color: white;
+      border-radius: 50%;
+      font-size: 11px;
+      width: 18px;
+      height: 18px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .avatar-wrapper {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+   }
+}
+
+.custom-tabs {
+   .nav-tabs {
+      border-bottom: 3px solid transparent;
+   }
+   .nav-link {
+      padding-bottom: 0.25rem !important;
+      display: inline-flex !important;
+      background: none !important;
+      border: none !important;
+      border-radius: 0 !important;
+      transition: 0.3s ease-in-out !important;
+      border-bottom: 3px solid transparent !important;
+      background-color: transparent !important;
+      margin-bottom: -3px !important;
+      font-size: 1.125rem;
+      font-weight: bold;
+
+      &.active {
+         border-bottom: 3px solid $primary !important;
+         color: $primary;
+      }
+
+      @media (max-width: 450px) {
+         width: 100%;
+      }
+   }
+}
+
+.search-input {
+   .form-control {
+      box-shadow: none;
+      outline: none;
+   }
+}
+
+.team-card {
+   border: 1px solid #e4e7ec;
+   border-radius: 4px;
+
+   .team-name {
+      line-height: 19px;
+   }
+
+   .logo-wrapper {
+      width: 36px;
+      height: 36px;
+   }
+
+   .created {
+      color: #565656;
+      font-size: 13px;
+      opacity: 0.5;
+   }
+
+   .team-description {
+      color: #565656;
+      height: 3rem;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+   }
+
+   .card-footer {
+      font-size: 13px;
+      background-color: white;
+      .footer-text {
+         opacity: 0.45;
+      }
+   }
+}
+
+.activity {
+   .activity-avatar {
+      width: 36px;
+      height: 36px;
+   }
+
+   .activity-time {
+      font-size: 13px;
+      color: #565656;
+      opacity: 0.5;
+   }
+}
